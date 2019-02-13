@@ -9,15 +9,13 @@ public class Solution {
         int best = 0;
         int current;
         int bestID = 0;
-        int[] arr, refArr;
+        int[] arr;
         
         arr = new int[n];
-        refArr = new int[n];
         
         //input all student times and creates a reference array for comparison
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
-            refArr[i] = arr[i];
         }
         sc.close();
         
