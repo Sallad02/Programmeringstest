@@ -8,12 +8,12 @@ public class Solution {
         int n = sc.nextInt();
         int best = 0;
         int current;
-        int bestID = 0;
+        int bestID = 1;
         int[] arr;
         
         arr = new int[n];
         
-        //input all student times and creates a reference array for comparison
+        //input all student times
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
