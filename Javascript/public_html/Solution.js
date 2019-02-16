@@ -1,9 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 
 function myFunction() {
     
@@ -12,8 +6,8 @@ function myFunction() {
       var array = document.getElementById('array').value;
       array = array.split(" ").map(Number);
       
+      //to stop from invalid inputs
       if(array.length != n){
-          document.getElementById('answer').value = "Invalid input";
           return;
       }
       
@@ -41,7 +35,6 @@ function myFunction() {
         for(var i = 0; i < arr.length; i++){
             array[i] = arr[i];
         }
-        console.log(array);
         
         var steps = array.length;
         var finished = 0;
